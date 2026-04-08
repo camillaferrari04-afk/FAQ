@@ -1,0 +1,54 @@
+body{
+    color: #030616;
+    font-family: "Inter", sans-serif;
+    line-height: 2;
+}
+
+header{
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+main{
+    background-color: #F8FAFC;
+    padding: 20px 27.5rem;
+}
+
+h1{
+    font-weight: 600px;
+    font-size: 2.25rem;
+}
+h2{
+font-weight: 600px;
+    font-size: 1.5rem;
+}
+p, li{
+    font-weight: 400px;
+    font-size: 1rem;
+}
+
+.link{
+    color: #4E80EE;
+}
+.grassetto{
+    font-weight: bold;
+}
+
+.divider{
+    height: 1px;
+    background-color: #D2D5DA;
+    margin: 2rem 0;
+}
+
+
+@media (max-width: 1024px){
+    main{
+    padding: 20px 5rem;
+}
+}
+
+@media (max-width: 640px){
+    main{
+    padding: 20px 0;
+}
+}
